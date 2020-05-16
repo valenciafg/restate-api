@@ -23,57 +23,12 @@ $show_banner = array(
     )
 );
 
-$type = array(
-    'type'      => 'select',
-    'field'     => 'restate_project_type',
-    'label'     => esc_html__('Type','restate-api'),
-    'value'     => 'DEPARTAMENTO',
-    'choices'   => array(
-        'DEPARTAMENTO'  => esc_html__('Department','restate-api'),
-        'OFICINA'       => esc_html__('Office','restate-api'),
-        'CASA'          => esc_html__('House','restate-api'),
-    ),
-    'columns'   => 5
-);
-
-$stage = array(
-    'type'      => 'select',
-    'field'     => 'restate_project_stage',
-    'label'     => esc_html__('Stage','restate-api'),
-    'value'     => 'CONSTRUCCION',
-    'choices'   => array(
-        'CONSTRUCCION'  => esc_html__('Building','restate-api'),
-        'ENTREGA INMEDIATA'       => esc_html__('Immediate Delivery','restate-api'),
-        'PRONTA ENTREGA'       => esc_html__('Prompt Delivery','restate-api'),
-        'LANZAMIENTO'       => esc_html__('Release','restate-api'),
-        'PREVENTA'       => esc_html__('Presale','restate-api'),
-    ),
-    'columns'   => 5
-);
-
 $delivery_date = array(
     'type'      => 'datepicker',
     'label'     => esc_html__('Delivery Date','restate-api'),
     'field'     => 'restate_project_delivery_date',
     'columns'   => 3,
     'options'   => array( 'dateFormat' => 'dd/mm/yy'),
-);
-
-$areas = array(
-    'type' => 'checkbox',
-    'field' => 'restate_project_areas',
-    'label' => esc_html__('Areas','restate-api'),
-    'choices' => array(
-        'LAUNDRY_ROOM'          => esc_html__('Laundry Room','restate-api'),
-        'LOBBY'                 => esc_html__('Lobby','restate-api'),
-        'POOL'                  => esc_html__('Pool','restate-api'),
-        'BAR'                   => esc_html__('Bar','restate-api'),
-        'GRILL_AREA'            => esc_html__('Grill Area','restate-api'),
-        'GYM'                   => esc_html__('Gym','restate-api'),
-        'MULTIPLE_USE_AREA'     => esc_html__('Multiple Use Area','restate-api'),
-        'CHILDRENS_PLAY_AREA'   => esc_html__('Childrens Play Area','restate-api'),
-        'BIKE_PARKING'          => esc_html__('Bike Parking','restate-api')
-    )
 );
 
 $starting_price_pen = array(
@@ -190,10 +145,7 @@ piklist('field', array(
     'fields'    => array(
         $slogan,
         $show_banner,
-        //  $type,
-        //  $stage,
         $delivery_date,
-        //  $areas,
         $max_rooms,
         $starting_price_pen,
         $starting_price_usd,
