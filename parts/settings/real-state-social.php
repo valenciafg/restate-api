@@ -8,6 +8,16 @@
 
 piklist('field', array(
     'type' => 'text',
+    'field' => 'real_estate_setting_social_whatsapp',
+    'label' => esc_html__('Whatsapp Number','restate-api'),
+    'attributes' => array(
+        'class' => 'regular-text',
+        'placeholder' => esc_html__('Enter the real estate Whatsapp number','restate-api')
+    )
+));
+
+piklist('field', array(
+    'type' => 'text',
     'field' => 'real_estate_setting_social_facebook',
     'label' => esc_html__('Facebook','restate-api'),
     'attributes' => array(

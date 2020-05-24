@@ -110,6 +110,23 @@ $outside_photos = array(
     'columns'   => 12
 );
 
+$panoramic_photo = array(
+    'type'  => 'file',
+    'field' => 'restate_project_panoramic_photo',
+    'label' => esc_html__('Panoramic Photo','experiensa'),
+    'options'   => ['button' => esc_html__('Panoramic Image','restate-api')],
+    'columns'   => 12,
+    'validate'  => array(
+        array(
+            'type' => 'limit',
+            'options' => array(
+                'min' => 0,
+                'max' => 1
+            )
+        )
+    )
+);
+
 $brochures_files = array(
     'type'      => 'file',
     'field'     => 'restate_project_brochure_file',
@@ -156,6 +173,7 @@ piklist('field', array(
         $coordinate_y,
         $inside_photos,
         $outside_photos,
+        $panoramic_photo,
         $brochures_files,
     )
 ));
