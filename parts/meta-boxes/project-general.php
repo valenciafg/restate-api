@@ -79,7 +79,7 @@ $address = array(
 );
 
 $coordinate_x = array(
-    'type'          => 'number',
+    'type'          => 'text',
     'field'         => 'restate_project_coordinate_x',
     'label'         => esc_html__('Coordinate X','restate-api'),
     'attributes'    => array( 'step' => 'any' ),
@@ -87,7 +87,7 @@ $coordinate_x = array(
 );
 
 $coordinate_y = array(
-    'type'          => 'number',
+    'type'          => 'text',
     'field'         => 'restate_project_coordinate_y',
     'label'         => esc_html__('Coordinate Y','restate-api'),
     'attributes'    => array( 'step' => 'any' ),
