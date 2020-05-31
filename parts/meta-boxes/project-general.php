@@ -94,6 +94,17 @@ $coordinate_y = array(
     'columns'       => 6
 );
 
+$gmap_image = array(
+    'type'          => 'file',
+    'field'         => 'restate_project_gmap_image',
+    'label'         => esc_html__( 'Google maps Image','restate-api' ),
+    'columns'       => 3,
+    'options'       => ['button' => esc_html__('Google maps Image', 'restate-api')],
+    'validate' => array(
+      ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
+    )
+    );
+
 $inside_photos = array(
     'type'  => 'file',
     'field' => 'restate_project_inside_photos',
@@ -127,6 +138,13 @@ $panoramic_photo = array(
     )
 );
 
+$video = array(
+    'type'  => 'text',
+    'field' => 'restate_project_promotional_video',
+    'columns'   => 10,
+    'label'     => esc_html__('Promotional video','restate-api')
+);
+
 $brochures_files = array(
     'type'      => 'file',
     'field'     => 'restate_project_brochure_file',
@@ -154,7 +172,40 @@ piklist('field', array(
     'validate' => array(
       ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
     )
-  ));
+));
+
+piklist('field', array(
+    'type'          => 'file',
+    'field'         => 'restate_project_facade_image',
+    'label'         => esc_html__( 'Facade Image','restate-api' ),
+    'columns'       => 3,
+    'options'       => ['button' => esc_html__('Facade Image', 'restate-api')],
+    'validate' => array(
+      ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
+    )
+));
+
+piklist('field', array(
+    'type'      => 'radio',
+    'label'     => esc_html__('Show Pop-up', 'restate-api'),
+    'field'     => 'restate_project_show_popup',
+    'value'     => 'FALSE',
+    'choices'   => array(
+        'TRUE'  => esc_html__('Yes', 'restate-api'),
+        'FALSE'  => esc_html__('No', 'restate-api')
+    )
+));
+
+piklist('field', array(
+    'type'          => 'file',
+    'field'         => 'restate_project_popup_image',
+    'label'         => esc_html__( 'Popup Image','restate-api' ),
+    'columns'       => 3,
+    'options'       => ['button' => esc_html__('Popup Image', 'restate-api')],
+    'validate' => array(
+      ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
+    )
+));
 
 piklist('field', array(
     'type'      => 'group',
@@ -171,9 +222,11 @@ piklist('field', array(
         $address,    
         $coordinate_x,
         $coordinate_y,
+        $gmap_image,
         $inside_photos,
         $outside_photos,
         $panoramic_photo,
+        $video,
         $brochures_files,
     )
 ));
