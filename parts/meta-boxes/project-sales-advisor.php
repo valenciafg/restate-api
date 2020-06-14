@@ -2,7 +2,7 @@
 /*
 Title: Sales Advisor
 Post Type: res_project
-Order: 2
+Order: 3
 */
 $fullname = array(
     'type'      => 'text',

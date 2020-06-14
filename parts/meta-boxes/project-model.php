@@ -2,7 +2,7 @@
 /*
 Title: Models
 Post Type: res_project
-Order: 3
+Order: 4
 */
 
 $name = array(

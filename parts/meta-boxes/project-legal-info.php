@@ -2,7 +2,7 @@
 /*
 Title: Legal Information
 Post Type: res_project
-Order: 4
+Order: 5
 */
 
 piklist('field', array(

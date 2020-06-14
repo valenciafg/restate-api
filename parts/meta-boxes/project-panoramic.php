@@ -1,22 +1,22 @@
 <?php
 /*
-Title: Legal Documents
+Title: Panoramic Gallery
 Post Type: res_project
-Order: 6
+Order: 2
 */
 
-$name = array(
+$caption = array(
     'type'      => 'text',
-    'field'     => 'restate_project_legal_doc_name',
+    'field'     => 'restate_project_panoramic_caption',
     'columns'   => 12,
     'label'     => esc_html__('Name','restate-api')
 );
 
-$file = array(
+$image = array(
     'type'  => 'file',
-    'field'     => 'restate_project_legal_doc_file',
-    'label'     => esc_html__('Document','restate-api'),
-    'options'       => ['button' => esc_html__('Legal Document', 'restate-api')],
+    'field' => 'restate_project_panoramic_image',
+    'label' => esc_html__('Panoramic Image','experiensa'),
+    'options'   => ['button' => esc_html__('Panoramic Image','restate-api')],
     'columns'   => 12,
     'validate'  => array(
         array(
@@ -31,11 +31,11 @@ $file = array(
 
 piklist('field', array(
     'type'      => 'group',
-    'field'     => 'restate_project_legal_docs',
+    'field'     => 'restate_project_panoramics',
     'template'  => 'field',
     'add_more'  => true,
     'fields'    => array(
-        $name,
-        $file,
+        $caption,
+        $image
     )
 ));
