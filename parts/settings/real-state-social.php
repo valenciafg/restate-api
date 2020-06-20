@@ -120,3 +120,20 @@ piklist('field', array(
         )
     )
 ));
+
+$embed = array(
+    'type'  => 'textarea',
+    'field' => 'real_estate_setting_social_fb_embed',
+    'columns'   => 10,
+    'label'     => esc_html__('Facebook Post Code','restate-api')
+);
+
+piklist('field', array(
+    'type'      => 'group',
+    'field'     => 'real_estate_setting_social_fb_posts',
+    'template'  => 'field',
+    'add_more'  => true,
+    'fields'    => array(
+        $embed,
+    )
+));
