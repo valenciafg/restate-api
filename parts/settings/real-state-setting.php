@@ -103,6 +103,16 @@ piklist('field', array(
     )
 ));
 
+piklist('field', array(
+    'type' => 'text',
+    'field' => 'real_estate_setting_promotional_video',
+    'label' => esc_html__('Promotional video URL','restate-api'),
+    'attributes' => array(
+        'class' => 'regular-text',
+        'placeholder' => esc_html__('Enter the promotional video URL','restate-api')
+    )
+));
+
 
 piklist('field', array(
     'type'      => 'textarea',
