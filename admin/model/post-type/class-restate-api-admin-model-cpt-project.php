@@ -34,10 +34,8 @@ class Restate_Api_Admin_Model_Cpt_Project {
             'filter_items_list'     => esc_html__( 'Filter Projects list', 'restate-api' ),
         );
         $rewrite = array(
-            'slug'                  => 'res_project',
-            'with_front'            => true,
-            'pages'                 => true,
-            'feeds'                 => true,
+            'slug'                  => 'proyecto',
+            'with_front'            => false
         );
         $options = array(
             'label'                 => esc_html__( 'Project', 'restate-api' ),
