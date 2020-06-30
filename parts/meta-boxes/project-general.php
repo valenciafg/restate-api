@@ -39,10 +39,26 @@ $starting_price_pen = array(
     'columns'       => 3
 );
 
+$end_price_pen = array(
+    'type'          => 'number',
+    'field'         => 'restate_project_end_price_pen',
+    'label'         => esc_html__('End Price PEN','restate-api'),
+    'attributes'    => array( 'step' => 'any' ),
+    'columns'       => 3
+);
+
 $starting_price_usd = array(
     'type'          => 'number',
     'field'         => 'restate_project_starting_price_usd',
     'label'         => esc_html__('Starting Price USD','restate-api'),
+    'attributes'    => array( 'step' => 'any' ),
+    'columns'       => 3
+);
+
+$end_price_usd = array(
+    'type'          => 'number',
+    'field'         => 'restate_project_end_price_usd',
+    'label'         => esc_html__('End Price USD','restate-api'),
     'attributes'    => array( 'step' => 'any' ),
     'columns'       => 3
 );
@@ -199,7 +215,9 @@ piklist('field', array(
         $delivery_date,
         $max_rooms,
         $starting_price_pen,
+        $end_price_pen,
         $starting_price_usd,
+        $end_price_usd,
         $min_area,
         $max_area,
         $address,    
