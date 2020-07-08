@@ -4,31 +4,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Real Estate Plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/restate-api\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-07-07T18:05:03-04:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"PO-Revision-Date: 2020-07-08 17:56-0500\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Domain: restate-api\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CL\n"
 
 #. Plugin Name of the plugin
 msgid "Real Estate Plugin"
-msgstr ""
+msgstr "Plugin Inmobiliario"
 
 #. Plugin URI of the plugin
 msgid "http://example.com/restate-api-uri/"
 msgstr ""
 
 #. Description of the plugin
-msgid "This is a short description of what the plugin does. It's displayed in the WordPress admin area."
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
 msgstr ""
+"Esta es una breve descripción de lo que hace el plugin. Se muestra en el "
+"área de administración de WordPress."
 
 #. Author of the plugin
 msgid "Víctor Valencia"
-msgstr ""
+msgstr "Víctor Valencia"
 
 #. Author URI of the plugin
 msgid "http://example.com/"
@@ -37,107 +43,107 @@ msgstr ""
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:19
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:20
 msgid "Projects"
-msgstr ""
+msgstr "Proyectos"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:21
 msgid "Parent Project:"
-msgstr ""
+msgstr "Proyecto Padre:"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:22
 msgid "All Projects"
-msgstr ""
+msgstr "Todos los proyectos"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:23
 msgid "Add New Project"
-msgstr ""
+msgstr "Agregar Nuevo Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:24
 msgid "Add New"
-msgstr ""
+msgstr "Agregar Nuevo"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:25
 msgid "New Project"
-msgstr ""
+msgstr "Nuevo proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:26
 msgid "Edit Project"
-msgstr ""
+msgstr "Editar Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:27
 msgid "Update Project"
-msgstr ""
+msgstr "Actualizar Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:28
 msgid "View Project"
-msgstr ""
+msgstr "Ver Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:29
 msgid "Search Project"
-msgstr ""
+msgstr "Buscar Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:30
 msgid "Not found"
-msgstr ""
+msgstr "No encontrado"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:31
 msgid "Not found in Trash"
-msgstr ""
+msgstr "No encontrado en la papelera"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:32
 msgid "Projects list"
-msgstr ""
+msgstr "Lista de Proyectos"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:33
 msgid "Projects list navigation"
-msgstr ""
+msgstr "Navegación de la lista de proyectos"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:34
 msgid "Filter Projects list"
-msgstr ""
+msgstr "Filtrar lista de proyectos"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:41
 msgid "Project"
-msgstr ""
+msgstr "Proyecto"
 
 #: admin/model/post-type/class-restate-api-admin-model-cpt-project.php:42
 msgid "List of Projects"
-msgstr ""
+msgstr "Lista de Proyectos"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:19
 msgid "Common Areas"
-msgstr ""
+msgstr "Áreas comunes"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:20
 msgid "All Common Areas"
-msgstr ""
+msgstr "Todas las áreas comunes"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:21
 msgid "Parent Common Area"
-msgstr ""
+msgstr "Zona Común padre"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:22
 msgid "Parent Common Area:"
-msgstr ""
+msgstr "Zona Común padre:"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:23
 msgid "New Common Area Name"
-msgstr ""
+msgstr "Nuevo nombre de área común"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:24
 msgid "Add New Common Area"
-msgstr ""
+msgstr "Añadir nueva área común"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:25
 msgid "Edit Common Area"
-msgstr ""
+msgstr "Editar área común"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:26
 msgid "Update Common Area"
-msgstr ""
+msgstr "Actualizar área común"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:27
 msgid "View Common Area"
-msgstr ""
+msgstr "Ver área común"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:28
 msgid "Separate Common Areas with commas"
@@ -160,14 +166,14 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:32
 msgid "Search Common Areas"
-msgstr ""
+msgstr "Buscar Áreas comunes"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:33
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:33
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:33
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:33
 msgid "Not Found"
-msgstr ""
+msgstr "No encontrado"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-common-area.php:34
 msgid "Common Areas list"
@@ -187,11 +193,11 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:21
 msgid "Parent Location"
-msgstr ""
+msgstr "Ubicación Padre"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:22
 msgid "Parent Location:"
-msgstr ""
+msgstr "Ubicación Padre:"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:23
 msgid "New Location Name"
@@ -211,7 +217,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:27
 msgid "View Location"
-msgstr ""
+msgstr "Ver Ubicación"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:28
 msgid "Separate Locations with commas"
@@ -227,7 +233,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:32
 msgid "Search Locations"
-msgstr ""
+msgstr "Buscar Ubicaciones"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-location.php:34
 msgid "Locations list"
@@ -247,11 +253,11 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:21
 msgid "Parent Type"
-msgstr ""
+msgstr "Tipo Padre"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:22
 msgid "Parent Type:"
-msgstr ""
+msgstr "Tipo Padre:"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:23
 msgid "New Type Name"
@@ -271,7 +277,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:27
 msgid "View Type"
-msgstr ""
+msgstr "Ver Tipo"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:28
 msgid "Separate Types with commas"
@@ -287,7 +293,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:32
 msgid "Search Types"
-msgstr ""
+msgstr "Buscar Tipos"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-project-type.php:34
 msgid "Types list"
@@ -307,11 +313,11 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:21
 msgid "Parent Stage"
-msgstr ""
+msgstr "Etapa Padre"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:22
 msgid "Parent Stage:"
-msgstr ""
+msgstr "Etapa Padre:"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:23
 msgid "New Stage Name"
@@ -319,7 +325,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:24
 msgid "Add New Stage"
-msgstr ""
+msgstr "Añadir nueva etapa"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:25
 msgid "Edit Stage"
@@ -331,7 +337,7 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:27
 msgid "View Stage"
-msgstr ""
+msgstr "Ver Etapa"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:28
 msgid "Separate Stages with commas"
@@ -339,19 +345,19 @@ msgstr ""
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:29
 msgid "Add or remove Stages"
-msgstr ""
+msgstr "Añadir o eliminar etapas"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:31
 msgid "Popular Stages"
-msgstr ""
+msgstr "Etapas populares"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:32
 msgid "Search Stages"
-msgstr ""
+msgstr "Buscar Etapas"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:34
 msgid "Stages list"
-msgstr ""
+msgstr "Lista de etapas"
 
 #: admin/model/taxonomy/class-restate-api-admin-model-tax-stage.php:35
 msgid "Stages list navigation"
@@ -360,216 +366,215 @@ msgstr ""
 #: admin/setting/class-restate-api-admin-setting.php:26
 #: admin/setting/class-restate-api-admin-setting.php:27
 msgid "Real Estate Options"
-msgstr ""
+msgstr "Opciones de Inmobiliaria"
 
 #: admin/setting/class-restate-api-admin-setting.php:35
 msgid "Save options"
-msgstr ""
+msgstr "Guardar opciones"
 
 #: parts/meta-boxes/project-general.php:11
 msgid "Slogan"
-msgstr ""
+msgstr "Slogan"
 
 #: parts/meta-boxes/project-general.php:16
 msgid "Show in Banner"
-msgstr ""
+msgstr "Mostrar en Banner"
 
 #: parts/meta-boxes/project-general.php:21
 #: parts/meta-boxes/project-general.php:193
 #: parts/settings/real-state-setting.php:52
 #: parts/settings/real-state-setting.php:82
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: parts/meta-boxes/project-general.php:22
 #: parts/meta-boxes/project-general.php:194
 #: parts/settings/real-state-setting.php:53
 #: parts/settings/real-state-setting.php:83
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: parts/meta-boxes/project-general.php:28
 msgid "Delivery Date"
-msgstr ""
+msgstr "Fecha de entrega"
 
 #: parts/meta-boxes/project-general.php:37
 #: parts/meta-boxes/project-model.php:33
 msgid "Starting Price PEN"
-msgstr ""
+msgstr "Precio inicial en Soles"
 
 #: parts/meta-boxes/project-general.php:45
 msgid "End Price PEN"
-msgstr ""
+msgstr "Precio final en Soles"
 
 #: parts/meta-boxes/project-general.php:53
 #: parts/meta-boxes/project-model.php:41
 msgid "Starting Price USD"
-msgstr ""
+msgstr "Precio inicial en dólares"
 
 #: parts/meta-boxes/project-general.php:61
 msgid "End Price USD"
-msgstr ""
+msgstr "Precio final en dólares"
 
 #: parts/meta-boxes/project-general.php:69
 msgid "Maximum Rooms Numbers"
-msgstr ""
+msgstr "Números máximos de habitaciones"
 
 #: parts/meta-boxes/project-general.php:77
 msgid "Minimum Area"
-msgstr ""
+msgstr "Área mínima"
 
 #: parts/meta-boxes/project-general.php:85
 msgid "Maximum Area"
-msgstr ""
+msgstr "Área máxima"
 
 #: parts/meta-boxes/project-general.php:93
 #: parts/settings/real-state-setting.php:132
 msgid "Address"
-msgstr ""
+msgstr "Dirección"
 
 #: parts/meta-boxes/project-general.php:100
 msgid "Coordinate X"
-msgstr ""
+msgstr "Coordenada X"
 
 #: parts/meta-boxes/project-general.php:108
 msgid "Coordinate Y"
-msgstr ""
+msgstr "Coordenada Y"
 
 #: parts/meta-boxes/project-general.php:116
 #: parts/meta-boxes/project-general.php:118
 msgid "Google maps Image"
-msgstr ""
+msgstr "Imagen de Google Maps"
 
 #: parts/meta-boxes/project-general.php:128
 msgid "Inside Image Gallery"
-msgstr ""
+msgstr "Galería interior"
 
 #: parts/meta-boxes/project-general.php:136
 msgid "Outside Image Gallery"
-msgstr ""
+msgstr "Galería exterior"
 
 #: parts/meta-boxes/project-general.php:144
 msgid "Promotional video"
-msgstr ""
+msgstr "Vídeo promocional"
 
 #: parts/meta-boxes/project-general.php:150
 msgid "Brochures should be PDF files"
-msgstr ""
+msgstr "Los brochures deben ser archivos PDF"
 
 #: parts/meta-boxes/project-general.php:151
 msgid "Brochure File"
-msgstr ""
+msgstr "Archivo de Brochure"
 
 #: parts/meta-boxes/project-general.php:153
 msgid "PDF Brochures"
-msgstr ""
+msgstr "PDF Brochures"
 
 #: parts/meta-boxes/project-general.php:168
 #: parts/meta-boxes/project-general.php:170
 msgid "Logo Image"
-msgstr ""
+msgstr "Imagen de logo"
 
 #: parts/meta-boxes/project-general.php:179
 #: parts/meta-boxes/project-general.php:181
 msgid "Facade Image"
-msgstr ""
+msgstr "Imagen de fachada"
 
 #: parts/meta-boxes/project-general.php:189
 #: parts/settings/real-state-setting.php:48
 msgid "Show Pop-up"
-msgstr ""
+msgstr "Mostrar pop-up"
 
 #: parts/meta-boxes/project-general.php:201
 #: parts/meta-boxes/project-general.php:203
 msgid "Popup Image"
-msgstr ""
+msgstr "Imagen pop-up"
 
 #: parts/meta-boxes/project-general.php:211
 msgid "General information"
-msgstr ""
+msgstr "Información general"
 
 #: parts/meta-boxes/project-general.php:237
 msgid "Additional information & Conditions"
-msgstr ""
+msgstr "Información adicional & Condiciones"
 
 #: parts/meta-boxes/project-legal-info.php:11
 msgid "Legal information"
-msgstr ""
+msgstr "Información legal"
 
-#: parts/meta-boxes/project-legal.php:12
-#: parts/meta-boxes/project-model.php:12
+#: parts/meta-boxes/project-legal.php:12 parts/meta-boxes/project-model.php:12
 #: parts/meta-boxes/project-panoramic.php:12
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: parts/meta-boxes/project-legal.php:18
 msgid "Document"
-msgstr ""
+msgstr "Documento"
 
 #: parts/meta-boxes/project-legal.php:19
 msgid "Legal Document"
-msgstr ""
+msgstr "Documento Legal"
 
 #: parts/meta-boxes/project-model.php:19
 msgid "Total Area (m2)"
-msgstr ""
+msgstr "Área Total (m2)"
 
 #: parts/meta-boxes/project-model.php:25
 msgid "Room Number"
-msgstr ""
+msgstr "Número de habitaciones"
 
 #: parts/meta-boxes/project-model.php:50
 msgid "Blueprints Image Gallery"
-msgstr ""
+msgstr "Galería de imágenes de planos"
 
 #: parts/meta-boxes/project-panoramic.php:19
 msgid "Panoramic Image"
-msgstr ""
+msgstr "Imagen panoramica"
 
 #: parts/meta-boxes/project-sales-advisor.php:11
 msgid "Fullname"
-msgstr ""
+msgstr "Nombre completo"
 
 #: parts/meta-boxes/project-sales-advisor.php:18
 #: parts/settings/real-state-social.php:12
 msgid "Whatsapp Number"
-msgstr ""
+msgstr "Número de Whatsapp"
 
 #: parts/meta-boxes/project-sales-advisor.php:25
 #: parts/settings/real-state-setting.php:172
 msgid "Email"
-msgstr ""
+msgstr "Correo electronico"
 
 #: parts/meta-boxes/project-sales-advisor.php:31
 msgid "Gender"
-msgstr ""
+msgstr "Genero"
 
 #: parts/meta-boxes/project-sales-advisor.php:37
 msgid "Female"
-msgstr ""
+msgstr "Femenino"
 
 #: parts/meta-boxes/project-sales-advisor.php:38
 msgid "Male"
-msgstr ""
+msgstr "Masculino"
 
 #: parts/meta-boxes/project-sales-advisor.php:44
 msgid "Sales Advisor"
-msgstr ""
+msgstr "Asesor de ventas"
 
 #: parts/settings/real-state-setting.php:11
 msgid "Main Logo"
-msgstr ""
+msgstr "Logo Principal"
 
 #: parts/settings/real-state-setting.php:13
 #: parts/settings/real-state-setting.php:14
 #: parts/settings/real-state-setting.php:32
 #: parts/settings/real-state-setting.php:33
 msgid "Add Logo"
-msgstr ""
+msgstr "Agregar Logo"
 
 #: parts/settings/real-state-setting.php:30
 msgid "Secundary Logo"
-msgstr ""
+msgstr "Logo Secundario"
 
 #: parts/settings/real-state-setting.php:60
 msgid "Pop-up image"
@@ -582,28 +587,28 @@ msgstr ""
 
 #: parts/settings/real-state-setting.php:78
 msgid "Show Promotion"
-msgstr ""
+msgstr "Mostrar promoción"
 
 #: parts/settings/real-state-setting.php:90
 msgid "Promotion image"
-msgstr ""
+msgstr "Imagen de promoción"
 
 #: parts/settings/real-state-setting.php:92
 #: parts/settings/real-state-setting.php:93
 msgid "Add promotion"
-msgstr ""
+msgstr "Agregar promoción"
 
 #: parts/settings/real-state-setting.php:109
 msgid "Promotional video URL"
-msgstr ""
+msgstr "URL de vídeo promocional"
 
 #: parts/settings/real-state-setting.php:112
 msgid "Enter the promotional video URL"
-msgstr ""
+msgstr "Ingrese URL de vídeo promocional"
 
 #: parts/settings/real-state-setting.php:120
 msgid "Agency Description"
-msgstr ""
+msgstr "Descripción de la inmobiliaria"
 
 #: parts/settings/real-state-setting.php:125
 msgid "Enter the agency description"
@@ -615,7 +620,7 @@ msgstr ""
 
 #: parts/settings/real-state-setting.php:142
 msgid "Postal Code"
-msgstr ""
+msgstr "Código Postal"
 
 #: parts/settings/real-state-setting.php:145
 msgid "Enter the agency postal code"
@@ -623,7 +628,7 @@ msgstr ""
 
 #: parts/settings/real-state-setting.php:152
 msgid "City"
-msgstr ""
+msgstr "Ciudad"
 
 #: parts/settings/real-state-setting.php:155
 msgid "Enter the agency city"
@@ -631,7 +636,7 @@ msgstr ""
 
 #: parts/settings/real-state-setting.php:162
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: parts/settings/real-state-setting.php:165
 msgid "Enter the agency country"
@@ -643,7 +648,7 @@ msgstr ""
 
 #: parts/settings/real-state-setting.php:182
 msgid "Phone"
-msgstr ""
+msgstr "Teléfono"
 
 #: parts/settings/real-state-setting.php:185
 msgid "Enter the agency phone"
@@ -679,7 +684,7 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:15
 msgid "Enter the real estate Whatsapp number"
-msgstr ""
+msgstr "Ingrese número de Whatsapp de inmobiliaria"
 
 #: parts/settings/real-state-social.php:22
 msgid "Facebook"
@@ -687,7 +692,7 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:25
 msgid "Enter the real estate Facebook"
-msgstr ""
+msgstr "Ingrese Facebook de inmobiliaria"
 
 #: parts/settings/real-state-social.php:37
 msgid "Twitter"
@@ -695,7 +700,7 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:40
 msgid "Enter the real estate Twitter"
-msgstr ""
+msgstr "Ingrese Twitter de inmobiliaria"
 
 #: parts/settings/real-state-social.php:52
 msgid "Pinterest"
@@ -703,7 +708,7 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:55
 msgid "Enter the real estate Pinterest"
-msgstr ""
+msgstr "Ingrese Pinterest de inmobiliaria"
 
 #: parts/settings/real-state-social.php:67
 msgid "LinkedIn"
@@ -711,7 +716,7 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:70
 msgid "Enter the real estate LinkedIn"
-msgstr ""
+msgstr "Ingrese LinkedIn de inmobiliaria"
 
 #: parts/settings/real-state-social.php:82
 msgid "Google Plus"
@@ -719,15 +724,15 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:85
 msgid "Enter the real estate Google Plus"
-msgstr ""
+msgstr "Ingrese Google Plus de inmobiliaria"
 
 #: parts/settings/real-state-social.php:97
 msgid "Skype"
-msgstr ""
+msgstr "Skype"
 
 #: parts/settings/real-state-social.php:100
 msgid "Enter the real estate Skype"
-msgstr ""
+msgstr "Ingrese Skype de inmobiliaria"
 
 #: parts/settings/real-state-social.php:112
 msgid "Instagram"
@@ -735,8 +740,8 @@ msgstr ""
 
 #: parts/settings/real-state-social.php:115
 msgid "Enter the real estate Instagram"
-msgstr ""
+msgstr "Ingrese Instagram de inmobiliaria"
 
 #: parts/settings/real-state-social.php:128
 msgid "Facebook Post Code"
-msgstr ""
+msgstr "Código de publicación de Facebook"
