@@ -11,6 +11,29 @@ $slogan = array(
     'label'     => esc_html__('Slogan','restate-api')
 );
 
+$show_facade_banner = array(
+    'type'      => 'radio',
+    'label'     => esc_html__('Show Facade Banner', 'restate-api'),
+    'field'     => 'restate_project_show_facade_banner',
+    'value'     => 'FALSE',
+    'columns'   => 12,
+    'choices'   => array(
+        'TRUE'  => esc_html__('Yes', 'restate-api'),
+        'FALSE'  => esc_html__('No', 'restate-api')
+    )
+);
+
+$facade_banner_image = array(
+    'type'          => 'file',
+    'field'         => 'restate_project_facade_banner_image',
+    'label'         => esc_html__( 'Facade Banner Image','restate-api' ),
+    'columns'       => 12,
+    'options'       => ['button' => esc_html__('Facade Banner Image', 'restate-api')],
+    'validate' => array(
+      ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
+    )
+);
+
 $show_banner = array(
     'type'      => 'radio',
     'label'     => esc_html__('Show in Banner', 'restate-api'),
@@ -144,6 +167,17 @@ $video = array(
     'label'     => esc_html__('Promotional video','restate-api')
 );
 
+$video_background = array(
+    'type'  => 'file',
+    'field' => 'restate_project_promotional_video_background',
+    'label'     => esc_html__('Promotional video background','restate-api'),
+    'columns'       => 12,
+    'options'       => ['button' => esc_html__('Promotional video background', 'restate-api')],
+    'validate' => array(
+      ['type' => 'limit','options' => [ 'min' => 0,'max' => 1]]
+    )
+);
+
 $brochures_files = array(
     'type'      => 'file',
     'field'     => 'restate_project_brochure_file',
@@ -210,6 +244,8 @@ piklist('field', array(
     'type'      => 'group',
     'label'     => esc_html__('General information','restate-api'),
     'fields'    => array(
+        $show_facade_banner,
+        $facade_banner_image,
         $slogan,
         $show_banner,
         $delivery_date,
@@ -227,6 +263,7 @@ piklist('field', array(
         $inside_photos,
         $outside_photos,
         $video,
+        $video_background,
         $brochures_files,
     )
 ));
