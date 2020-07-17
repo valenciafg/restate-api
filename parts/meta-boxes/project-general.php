@@ -46,6 +46,18 @@ $show_banner = array(
     )
 );
 
+$show_home = array(
+    'type'      => 'radio',
+    'label'     => esc_html__('Show in Home', 'restate-api'),
+    'field'     => 'restate_project_show_home',
+    'value'     => 'FALSE',
+    'columns'   => 2,
+    'choices'   => array(
+        'TRUE'  => esc_html__('Yes', 'restate-api'),
+        'FALSE'  => esc_html__('No', 'restate-api')
+    )
+);
+
 $delivery_date = array(
     'type'      => 'datepicker',
     'label'     => esc_html__('Delivery Date','restate-api'),
@@ -248,6 +260,7 @@ piklist('field', array(
         $facade_banner_image,
         $slogan,
         $show_banner,
+        $show_home,
         $delivery_date,
         $max_rooms,
         $starting_price_pen,
