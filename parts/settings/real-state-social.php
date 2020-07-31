@@ -137,3 +137,35 @@ piklist('field', array(
         $embed,
     )
 ));
+
+$code = array(
+    'type'  => 'number',
+    'field' => 'real_estate_setting_social_post_code',
+    'columns'   => 10,
+    'label'     => esc_html__('Code','restate-api')
+);
+
+$type = array(
+    'type'  => 'select',
+    'field' => 'real_estate_setting_social_post_type',
+    'columns'   => 10,
+    'label'     => esc_html__('Type','restate-api'),
+    'choices' => array(
+        'masonry'   => esc_html__('Masonry','restate-api'),
+        'timeline'  => esc_html__('Timeline','restate-api'),
+        'feed'      => esc_html__('Feed','restate-api'),
+        'carousel'  => esc_html__('Carousel','restate-api'),
+        'grid'      => esc_html__('Grid','restate-api')
+    )
+);
+
+piklist('field', array(
+    'type'      => 'group',
+    'field'     => 'real_estate_setting_social_posts',
+    'template'  => 'field',
+    'add_more'  => true,
+    'fields'    => array(
+        $code,
+        $type
+    )
+));
