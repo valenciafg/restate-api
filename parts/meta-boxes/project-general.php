@@ -98,6 +98,14 @@ $end_price_usd = array(
     'columns'       => 3
 );
 
+$min_rooms = array(
+    'type'          => 'number',
+    'field'         => 'restate_project_min_rooms',
+    'label'         => esc_html__('Minimum Rooms Numbers','restate-api'),
+    'attributes'    => array( 'step' => 'any' ),
+    'columns'       => 3
+);
+
 $max_rooms = array(
     'type'          => 'number',
     'field'         => 'restate_project_max_rooms',
@@ -262,6 +270,7 @@ piklist('field', array(
         $show_banner,
         $show_home,
         $delivery_date,
+        $min_rooms,
         $max_rooms,
         $starting_price_pen,
         $end_price_pen,
