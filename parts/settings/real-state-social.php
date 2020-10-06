@@ -121,6 +121,21 @@ piklist('field', array(
     )
 ));
 
+piklist('field', array(
+    'type' => 'text',
+    'field' => 'real_estate_setting_social_youtube',
+    'label' => esc_html__('Youtube','restate-api'),
+    'attributes' => array(
+        'class' => 'regular-text',
+        'placeholder' => esc_html__('Enter the real estate Youtube','restate-api')
+    ),
+    'validate' => array(
+        array(
+            'type' => 'url'
+        )
+    )
+));
+
 $embed = array(
     'type'  => 'textarea',
     'field' => 'real_estate_setting_social_fb_embed',
