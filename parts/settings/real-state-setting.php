@@ -74,6 +74,16 @@ piklist('field', array(
 ));
 
 piklist('field', array(
+    'type' => 'text',
+    'field' => 'real_estate_setting_popup_image_url',
+    'label' => esc_html__('Pop-up URL','restate-api'),
+    'attributes' => array(
+        'class' => 'regular-text',
+        'placeholder' => esc_html__('Enter the Pop-up URL','restate-api')
+    )
+));
+
+piklist('field', array(
     'type'      => 'radio',
     'label'     => esc_html__('Show Promotion', 'restate-api'),
     'field'     => 'real_estate_setting_show_promotion',
@@ -91,6 +101,25 @@ piklist('field', array(
     'options'   => array(
         'modal_title'   => esc_html__('Add promotion','restate-api'),
         'button'        => esc_html__('Add promotion','restate-api')
+    ),
+    'validate' => array(
+        array(
+            'type' => 'limit',
+            'options' => array(
+                'min' => 0,
+                'max' => 1
+            )
+        )
+    )
+));
+
+piklist('field', array(
+    'type'      => 'file',
+    'field'     => 'real_estate_setting_blog_banner_image',
+    'label'     => esc_html__('Blog Banner image','restate-api'),
+    'options'   => array(
+        'modal_title'   => esc_html__('Add Image','restate-api'),
+        'button'        => esc_html__('Add Image','restate-api')
     ),
     'validate' => array(
         array(
