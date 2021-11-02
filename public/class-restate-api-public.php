@@ -100,4 +100,9 @@ class Restate_Api_Public {
 
 	}
 
+	public function register_query_vars($vars) {
+		$vars[] = 'distrito';
+		return $vars;
+	}
+
 }
