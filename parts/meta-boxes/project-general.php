@@ -11,6 +11,13 @@ $slogan = array(
     'label'     => esc_html__('Slogan','restate-api')
 );
 
+$ribbon = array(
+    'type'      => 'text',
+    'field'     => 'restate_project_ribbon_message',
+    'columns'   => 10,
+    'label'     => esc_html__('Ribbon message','restate-api')
+);
+
 $show_facade_banner = array(
     'type'      => 'radio',
     'label'     => esc_html__('Show Facade Banner', 'restate-api'),
@@ -267,6 +274,7 @@ piklist('field', array(
         $show_facade_banner,
         $facade_banner_image,
         $slogan,
+        $ribbon,
         $show_banner,
         $show_home,
         $delivery_date,
